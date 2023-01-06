@@ -100,3 +100,30 @@ section{
     color: #444343;
     margin-bottom: 22px;
 }
+.plan-title{
+    margin-top: 200px;;
+    margin-left: 900px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.full-part{
+    display: flex;
+    margin-top: 50px;
+    gap: 125px;
+    margin-left: 450px;
+    color: #151414;
+}
+.plan-sub-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-goal{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737878;
+    margin-bottom: 130px;
+}
