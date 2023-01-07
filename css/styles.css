@@ -1,8 +1,9 @@
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-
 }
+
+/* header part styles starts */
 header{
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
@@ -42,6 +43,9 @@ header{
     border: 0;
     padding: 10px 22px;
 }
+/* header part styles ends */
+
+/* 1st section style starts */
 section{
     display: flex;
 }
@@ -76,6 +80,9 @@ section{
 .list{
     margin-bottom: 8px;
 }
+/* 1st section style ends */
+
+/* bonus section styles starts */
 .img-2{
     width: 500px;
     height: 700px;
@@ -100,6 +107,9 @@ section{
     color: #444343;
     margin-bottom: 22px;
 }
+/* bonus section styles ends */
+
+/* plan section styles starts */
 .plan-title{
     margin-top: 200px;;
     margin-left: 900px;
@@ -127,3 +137,86 @@ section{
     color: #737878;
     margin-bottom: 130px;
 }
+/* plan section styles ends */
+
+/* small banner section styles starts */
+.small-banner{
+    width: 1130px;
+    height: 750px;
+    background: url(../images/watch.png), url(../images/gradient2.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin-left: 420px;
+}
+.small-banner-part{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.small-banner-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.calling-btn{
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+}
+/* small banner section styles ends */
+
+/* footer style starts */
+.end-part{
+    background-color: #151414;
+    width: 100%;
+    height: 577px;
+}
+.footer-writting{
+    display: flex;
+    gap: 600px;
+}
+.ending-writting{
+    margin-top: 130px;
+    margin-left: 230px;
+    color: #FFFFFF;
+}
+.future-type{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.descrip{
+    margin-bottom: 24px;
+}
+.mail{
+    margin-bottom: 16px;
+}
+.num{
+   margin-bottom: 35px;
+}
+.input-part{
+    margin-top: 130px;
+}
+.sub-text{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.email-part{
+    padding: 21px 150px 22px 21px;
+    margin-bottom: 10px;
+    color: #F3F3F3;
+}
+.sub-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 10px;
+    padding: 15px;
+}
+/* footer style ends */
